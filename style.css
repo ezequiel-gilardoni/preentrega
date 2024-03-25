@@ -198,3 +198,70 @@ input, textarea {
             padding: 15px;
         }
     }
+.section-container{
+    margin: 10px 15px 15px 10px;
+}
+.imagen-moto{
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px 10px 0 0;
+}
+.articulos-moto-imagen{
+    background-color: white;
+    border: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 350px;
+    border-radius: 2em;
+    border: 1px;
+    border-style:outset;
+    margin: 4em;
+    box-shadow: 7px 7px 15px 3px rgb(97, 97, 97);
+}
+.articulos-moto{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    display: flex;
+}
+.container-product{
+    background-color: #e5cfa6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.container-info{
+    border: #000;
+    border-style: solid;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 0 9px 10px rgb(110, 101, 101);    
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+.container-info p{
+    width: 70%;
+}
+.card-informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width: 768px){
+    .container-info{
+        display: flex;
+        flex-direction: row;
+    }
+    .card-informacion{
+        display: flex;
+        align-items: start;
+    }
+}
