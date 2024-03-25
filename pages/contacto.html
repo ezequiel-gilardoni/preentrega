@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <title>Ciudadmotos</title>
 </head>
@@ -10,7 +11,7 @@
     <header>
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Ciudad-Motos</a>
+                <a class="navbar-brand" href="index.html">Ciudad-Motos</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"   aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,7 +26,7 @@
                                 <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contacto.html">Contacto</a>
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./financiacion.html">Financiacion</a>
@@ -42,40 +43,33 @@
             </div>
         </nav>
     </header>
-    <section>
 
-    </section>
-    <footer class="border">
-        <table class="table table-dark table-borderless">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
-                </tbody>
-        </table>
-    </footer>
+    <div class="cuerpo">
+        <form>
+            <h2>Contacto</h2>
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre">
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Email">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+                <div class="form-txt">
+                    <a href="#">Politicas de privacidad</a>
+                    <a href="#">Terminos y condiciones</a>
+                </div>
+                <input class="btn" type="submit" value="Enviar">
+            </div>
+        </form>
+    </div>
+    
+
+
+
+
+
     <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
