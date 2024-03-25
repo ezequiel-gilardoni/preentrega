@@ -68,6 +68,14 @@ footer{
         column-gap: 10px;
         row-gap: 10px;
     }
+    .item-1{
+        display: flex;
+        flex-direction: row;
+    }
+    .item-2{
+        display: flex;
+        flex-direction: row; 
+    }
 }
 .card img{
     width: 100%;
@@ -92,4 +100,17 @@ footer{
 }
 .fondo-principal{
     width: 90%;
+}
+
+.img-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articulos{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: black;
+    color: white;
 }
