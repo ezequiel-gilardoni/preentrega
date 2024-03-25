@@ -71,10 +71,17 @@ footer{
     .item-1{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
     }
     .item-2{
         display: flex;
         flex-direction: row; 
+        flex-wrap: wrap;
+    }
+    .item-3{
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap;
     }
 }
 .card img{
@@ -145,10 +152,7 @@ label{
 }
 input, textarea {
     padding: 17px 25px;
-}
-input, textarea {
-    padding: 17px 25px;
-    border-radius: 25px;
+    border-radius: 25px !important;
     margin-bottom: 20px;
     background-color: #EDFFF0;
     border: #F0FAF1;
@@ -183,7 +187,7 @@ input, textarea {
         background-color: #50e04b;
     }
     @media(max-width:991px){
-        body{
+        .cuerpo{
             padding: 30px;
         }
         form{
